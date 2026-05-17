@@ -75,6 +75,8 @@ For phone-first personal operations, start with [docs/personal-ops-workflow.md](
 
 For Gmail triage, use [docs/email-ops-workflow.md](docs/email-ops-workflow.md). Email starts read-only; sending requires explicit approval.
 
+For a repeatable morning/midday/evening assistant flow, use [docs/daily-operator-routine.md](docs/daily-operator-routine.md).
+
 For terminal basics and avoiding WSL/Hermes prompt confusion, use [docs/hermes-terminal-cheatsheet.md](docs/hermes-terminal-cheatsheet.md).
 
 For the `xlink-core` operating guardrails, use [docs/rules-of-engagement-xlink-core.md](docs/rules-of-engagement-xlink-core.md).
