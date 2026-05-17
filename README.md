@@ -33,7 +33,10 @@ Hermes Core/
   docs/
     index.md
     operating-model.md
+    personal-ops-workflow.md
     xlink-bridge-contract.md
+  notes/
+    inbox.md
   scripts/
     setup_env.sh
   src/
@@ -66,6 +69,8 @@ The first useful milestone is not a big service. It is a safe operator lab:
 4. Define a future bridge contract to X Link Hub before implementing it.
 
 Start with [docs/operating-model.md](docs/operating-model.md) and [docs/xlink-bridge-contract.md](docs/xlink-bridge-contract.md) before giving Hermes broader authority.
+
+For phone-first personal operations, start with [docs/personal-ops-workflow.md](docs/personal-ops-workflow.md). Captured notes should land in [notes/inbox.md](notes/inbox.md).
 
 ## Health Check
 
