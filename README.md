@@ -31,6 +31,7 @@ Hermes Core/
   configs/
     example.yaml
   docs/
+    email-ops-workflow.md
     index.md
     operating-model.md
     personal-ops-workflow.md
@@ -71,6 +72,8 @@ The first useful milestone is not a big service. It is a safe operator lab:
 Start with [docs/operating-model.md](docs/operating-model.md) and [docs/xlink-bridge-contract.md](docs/xlink-bridge-contract.md) before giving Hermes broader authority.
 
 For phone-first personal operations, start with [docs/personal-ops-workflow.md](docs/personal-ops-workflow.md). Captured notes should land in [notes/inbox.md](notes/inbox.md).
+
+For Gmail triage, use [docs/email-ops-workflow.md](docs/email-ops-workflow.md). Email starts read-only; sending requires explicit approval.
 
 ## Health Check
 

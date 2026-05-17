@@ -16,6 +16,7 @@ Hermes Core is a standalone operator-core lab.
 - Do not create cron jobs, background services, or external integrations without approval.
 - Do not change model/provider settings without approval.
 - Do not edit files outside this repo without approval.
+- Treat email as read-only unless Rob explicitly approves an exact outbound message.
 - Prefer small, reversible changes with tests.
 
 ## Approval Required
@@ -28,3 +29,4 @@ Ask Rob before:
 - deleting files or state
 - starting recurring automation
 - creating external network integrations
+- sending, forwarding, deleting, archiving, or moving email
