@@ -59,10 +59,19 @@ cat notes/inbox.md
 
 4. Do not read email bodies unless Rob approves specific message IDs.
 
+Classification refinements:
+
+- Put security alerts in `Verify` until Rob confirms whether the alert is expected or unexpected.
+- Do not treat confirmed/expected security alerts as urgent after Rob explains them.
+- Do not derive the personal/family anchor from email headers. Use it as a grounding prompt: one family/personal thing to protect today.
+
 Morning brief format:
 
 ```text
 Morning operator brief
+
+Verify:
+- ...
 
 Urgent:
 - ...
@@ -79,7 +88,7 @@ Defer:
 - ...
 
 Personal/family anchor:
-- ...
+- One family/personal thing to protect today: ...
 
 Risk:
 - ...
