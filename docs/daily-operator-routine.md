@@ -63,7 +63,13 @@ Classification refinements:
 
 - Put security alerts in `Verify` until Rob confirms whether the alert is expected or unexpected.
 - Do not treat confirmed/expected security alerts as urgent after Rob explains them.
+- Reserve `Urgent` for time-sensitive, risk-bearing, or externally blocking items.
+- Relevant-but-not-blocking items, such as Hermes reference material, belong in `Worth attention` unless Rob says otherwise.
 - Do not derive the personal/family anchor from email headers. Use it as a grounding prompt: one family/personal thing to protect today.
+
+Invocation note:
+
+- There is no `hermes -p xlink-core daily-operator-brief` CLI command. Use the procedure directly and run only the needed read-only commands.
 
 Morning brief format:
 
