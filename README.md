@@ -77,6 +77,8 @@ For Gmail triage, use [docs/email-ops-workflow.md](docs/email-ops-workflow.md). 
 
 For terminal basics and avoiding WSL/Hermes prompt confusion, use [docs/hermes-terminal-cheatsheet.md](docs/hermes-terminal-cheatsheet.md).
 
+For the `xlink-core` operating guardrails, use [docs/rules-of-engagement-xlink-core.md](docs/rules-of-engagement-xlink-core.md).
+
 ## Health Check
 
 From WSL:
