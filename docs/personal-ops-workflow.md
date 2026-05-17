@@ -32,7 +32,7 @@ Example:
 Capture: follow up with recruiter about Tuesday interview
 ```
 
-Hermes should append the item to `notes/inbox.md` with:
+Hermes should append the item to `notes/inbox.md` (located at `/mnt/c/AI Fusion Labs/X AGENTS/REPOS/Hermes Core/notes/inbox.md`) with:
 
 - date/time
 - source: Telegram
