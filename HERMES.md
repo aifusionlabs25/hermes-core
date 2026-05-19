@@ -21,8 +21,22 @@ At the start of a meaningful workstream:
 - Keep changes scoped.
 - Show final diffs after file edits.
 - Do not ask for credentials until account, profile, HOME, and working directory context have been checked.
-- Do not use em dashes in generated text for Rob.
-- Before showing Daily Operator Briefs, Linear summaries, inbox triage, or operational recommendations, ensure the entire response is ASCII-only.
+- Generated operator text for Rob must be ASCII-only unless Rob explicitly asks otherwise.
+- ASCII-only means every character must be code point 0 through 127.
+- Do not use nonbreaking hyphens, en dashes, em dashes, curly quotes, arrows, ellipsis characters, or nonbreaking spaces.
+- Replace nonbreaking hyphen, en dash, and em dash with `-`.
+- Replace curly quotes with straight quotes.
+- Replace arrows with `->`.
+- Replace ellipsis characters with `...`.
+- Replace nonbreaking spaces with normal spaces.
+- Before showing Daily Operator Briefs, Linear summaries, inbox triage, or operational recommendations, check the entire response for non-ASCII characters.
+
+## Date Rules
+
+- For Daily Operator Briefs and status reports, do not guess the current date.
+- Use the exact current date from the runtime context when available.
+- If the current date is not available, write `Date not verified` or ask Rob for the date.
+- If Rob provides a date, use that exact date.
 
 ## Interface Rules
 
