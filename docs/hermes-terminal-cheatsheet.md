@@ -371,9 +371,147 @@ Check Gmail:
 himalaya envelope list --page-size 5
 ```
 
+Gmail account labels:
+
+- `aifusionlabs`: AI Fusion Labs Gmail.
+- `rob-personal`: Rob's main personal Gmail.
+
+Hermes can summarize headers and bodies from approved Gmail accounts when you ask for Gmail summary, triage, or review.
+
+Safe examples:
+
+```text
+Summarize Gmail for rob-personal.
+Triage Gmail for aifusionlabs, page size 10.
+Check both Gmail accounts for anything important today.
+```
+
+Rules:
+
+- Hermes should always say which Gmail account it is checking.
+- For `rob-personal`, every Himalaya command needs `--account rob-personal`, including `message read`.
+- If `envelope list` works but `message read` fails, tell Hermes to retry with `himalaya message read --account rob-personal <ID>`. Do not paste the password again.
+- Summaries are temporary unless you explicitly ask Hermes to save them.
+- Sensitive categories need extra care: medical, legal, financial, tax, password/security, family conflict, and identity documents.
+- Hermes must ask before sending, replying, forwarding, archiving, deleting, labeling, creating tasks, creating calendar events, creating reminders, sending Telegram messages, or writing memory.
+
 Manual Coast test:
 
 ```bash
 cd "/mnt/c/AI Fusion Labs/AI folder from OG Comp/iheart_dev"
 ./hermes_coast_night_watch.sh 30
+```
+
+---
+
+**Telegram cheat-sheet (Rob-focused)**
+
+---
+
+**1. How Telegram talks to Hermes**
+- Anything you type in Telegram is sent to Hermes for thinking.
+- Hermes replies in the same Telegram chat unless the message is meant for a fast lane command.
+
+**2. The "Capture:" fast lane**
+- Prefix a note with `Capture:` and Hermes will skip the normal reasoning step.
+- The note is saved directly to the inbox file.
+
+**3. Example message**
+
+```
+Capture: remember to review this later
+```
+
+**4. What you will see back**
+
+```
+Captured to inbox.
+```
+
+If there is a problem you will see:
+
+```
+Capture failed. Check inbox script.
+```
+
+**5. Where the captured notes appear**
+
+All notes are appended to
+
+```
+/mnt/c/AI Fusion Labs/X AGENTS/REPOS/Hermes Core/notes/inbox.md
+```
+
+You can view them from a terminal with:
+
+```
+cat "/mnt/c/AI Fusion Labs/X AGENTS/REPOS/Hermes Core/notes/inbox.md"
+```
+
+**6. Where to make configuration or plugin changes**
+- Never edit plugins, gateway settings, or profile config from Telegram.
+- Use the Hermes chat (run `hermes -p xlink-core chat` from a normal WSL terminal) for any of those tasks.
+
+**7. If Telegram stops replying**
+1. Check the gateway status from a regular WSL terminal:
+
+```
+hermes -p xlink-core gateway status
+```
+
+2. Or open a Hermes chat session (`hermes -p xlink-core chat`) and ask "What is the gateway status?".
+
+---
+
+Quick reminder: use Telegram for quick notes (`Capture:`) and for asking Hermes questions. Use the Hermes chat for any setup, plugin, or gateway work. This keeps the two interfaces clean and avoids accidental configuration changes from Telegram.
+
+---
+
+How to Talk to Hermes (for Rob)
+
+- Use natural-language commands only when the prompt shows the Hermes chat indicator, e.g. "xlink-core >" or "* >".
+- In a normal Bash prompt (e.g. "ai_fusion_labs@...$"), Hermes commands will not be understood; run shell commands there.
+- To start Hermes chat from WSL, run: hermes -p xlink-core chat.
+- Keep requests concise and action-oriented. Ask for one thing at a time.
+- When you need Hermes to inspect something, phrase it as a read-only check first (e.g. "show gateway status", "list Gmail headers").
+- Ask for confirmation before any state-changing action (file delete, config edit, sending messages, starting automations, etc.).
+- Use the prescribed headings for daily briefs: Morning operator brief, Midday reset, Evening shutdown.
+- For captures, start the line with "Capture:" and let Hermes append it to the inbox file.
+- Never include em dashes; use commas, periods, colons, or semicolons.
+- If you see an error like "command not found", you are probably in the wrong context; switch to the Hermes prompt.
+- Remember the safety summary: read first, report findings, ask before changing.
+
+---
+
+Hermes Core reliability rules
+
+- Hermes Core repo path:
+
+```text
+/mnt/c/AI Fusion Labs/X AGENTS/REPOS/Hermes Core
+```
+
+- Use absolute paths for Hermes Core docs, notes, scripts, and config.
+- Do not let Hermes edit `docs/...` unless it has first confirmed the full repo path above.
+- If you say draft, inspect, verify, plan, or report only, Hermes should not write files or change state.
+- If Hermes asks for a password after a Gmail envelope list already worked, stop it and ask it to check account flags and HOME first.
+- For file edits, ask Hermes to show the final diff.
+
+One-shot starter prompt:
+
+Saved reference:
+
+```text
+/mnt/c/AI Fusion Labs/X AGENTS/REPOS/Hermes Core/docs/hermes-one-shot-workstream-prompt.md
+```
+
+```text
+Use repo path /mnt/c/AI Fusion Labs/X AGENTS/REPOS/Hermes Core.
+Use absolute paths only.
+Follow xlink-core Rules of Engagement.
+Treat draft, inspect, verify, report only, and plan as read-only.
+For rob-personal Gmail, every Himalaya command must include --account rob-personal.
+Do not ask for passwords if envelope list already works.
+Do not modify files, config, memory, email, Telegram, calendar, reminders, or scheduled tasks unless I explicitly approve that state change.
+Before editing, state the exact file path. After editing, show the final diff.
 ```

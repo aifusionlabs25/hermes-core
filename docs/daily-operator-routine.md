@@ -276,3 +276,22 @@ Capture: follow up on ...
 ```text
 Give me an evening shutdown. Keep it realistic.
 ```
+
+Inbox Captures:
+- Hermes reads (read-only) the file
+  /mnt/c/AI Fusion Labs/X AGENTS/REPOS/Hermes Core/notes/inbox.md
+- Include only notes that are not yet handled or that are relevant to today.
+- If no such notes exist output:
+  Inbox Captures: No new inbox captures.
+- Suggest at most one inbox-related next action (for example, add the Do today
+  items to Today's Top 3). Do not create tasks, reminders, calendar events,
+  emails, Telegram messages, or memory entries without Rob's explicit approval.
+
+Daily Brief Clarifications
+
+- Inbox Captures must summarize actual notes found in notes/inbox.md. Do not copy the procedural instructions into the brief.
+- Verify is only for security alerts or other items that require confirmation. Do not include generic health checks such as gateway status unless Rob asks for a health check.
+- Personal/Family Anchor must always show this prompt: One family/personal thing to protect today:
+- Generated Daily Operator Briefs must use ASCII only.
+- The inbox is read-only by default. Do not modify inbox.md or create tasks, reminders, calendar events, emails, Telegram messages, or memory entries without Rob's approval.
+
