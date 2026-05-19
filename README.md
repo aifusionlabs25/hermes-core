@@ -60,6 +60,16 @@ Hermes Core/
 - Do not modify X Link Hub from this repo until a bridge contract exists.
 - Keep model settings in the Hermes profile unless there is a specific reason for repo-local overrides.
 
+## 3MD Brain
+
+Hermes Core has three root-level brain files:
+
+- [ROB.md](ROB.md): stable context about Rob's working style, preferences, and approval boundaries.
+- [HERMES.md](HERMES.md): operating rules for Hermes.
+- [WORK.md](WORK.md): current projects, repo map, Linear status, and next moves.
+
+At the start of a meaningful workstream, read these files before acting.
+
 ## Next Direction
 
 The first useful milestone is not a big service. It is a safe operator lab:

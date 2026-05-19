@@ -15,6 +15,12 @@ Hermes Core is a standalone operator-core lab. Its job is to help experiment wit
 - Avoid repo-local model overrides until needed.
 - Avoid cron jobs until the workflow is proven manually.
 
+## 3MD Brain
+
+- [ROB](../ROB.md)
+- [HERMES](../HERMES.md)
+- [WORK](../WORK.md)
+
 ## Future Work
 
 - Add a status script for the profile and API port.
