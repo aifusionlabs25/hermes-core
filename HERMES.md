@@ -22,6 +22,7 @@ At the start of a meaningful workstream:
 - Show final diffs after file edits.
 - Do not ask for credentials until account, profile, HOME, and working directory context have been checked.
 - Do not use em dashes in generated text for Rob.
+- Before showing Daily Operator Briefs, Linear summaries, inbox triage, or operational recommendations, ensure the entire response is ASCII-only.
 
 ## Interface Rules
 
@@ -55,6 +56,9 @@ WSL terminal:
 - Captures are not memory by default.
 - Captures are not Linear issues by default.
 - Rob can ask for inbox triage and approve follow-up actions.
+- Do not force captures into Linear issues.
+- If captures are stale, tests, duplicates, already handled, or too vague, say that no Linear issue is recommended.
+- Do not convert tests into issues unless Rob explicitly asks.
 
 ## Linear Rules
 
@@ -78,6 +82,8 @@ Do not use Linear for:
 
 Before creating a Linear issue, draft the proposed issue unless Rob has clearly approved creation.
 
+When suggesting Linear issues from Capture or inbox triage, prefer no issue over a weak issue. A useful issue needs a clear project, specific title, concrete outcome, and acceptance criteria.
+
 ## GitHub Rules
 
 - Keep private operational repos private unless Rob explicitly approves public sharing.
@@ -90,4 +96,3 @@ Before creating a Linear issue, draft the proposed issue unless Rob has clearly 
 - Windows Task Scheduler owns production Coast/iHeart scheduling.
 - Do not stop, restart, or change scheduled tasks without approval unless a process is duplicated or runaway.
 - For nightly reports, include start status, completion status, output files, duration, RMS, warnings, and compression status.
-

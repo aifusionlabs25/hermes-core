@@ -76,7 +76,7 @@ Open item:
 
 1. Monitor and verify the next Coast/iHeart scheduled recording, then close AI-9 if successful.
 2. Start using Linear as the task board for new Hermes, X-LINK, iHeart, and job-search work.
-3. Use the Capture to Linear workflow only after inbox triage and Rob approval.
+3. Test the Capture to Linear workflow with inbox triage. Do not create issues without Rob approval, and recommend no issue when captures are stale, tests, duplicates, handled, or vague.
 4. Keep `notes/inbox.md` local-only and out of GitHub.
 5. Consider adding a short Hermes startup prompt that says: read `ROB.md`, `HERMES.md`, and `WORK.md`.
 
@@ -89,4 +89,3 @@ Then check Linear if the task mentions active work.
 Follow xlink-core Rules of Engagement.
 Do not change files, config, memory, email, Telegram, calendar, reminders, scheduled tasks, or Linear unless I explicitly approve.
 ```
-
