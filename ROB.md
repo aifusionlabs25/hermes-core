@@ -35,6 +35,7 @@ Ask for explicit approval before:
 Approved assistant lanes:
 
 - Gmail triage for approved accounts.
+- Calendar brief and schedule triage after Rob approves Calendar setup.
 - Telegram Capture.
 - Daily Operator Briefs.
 - Inbox triage.
@@ -55,8 +56,12 @@ Use labels, not sensitive account details, in docs and reports:
 
 - `aifusionlabs`: AI Fusion Labs Gmail.
 - `rob-personal`: Rob's main personal Gmail.
+- `rob-personal-calendar`: Rob's main personal calendar.
+- `aifusionlabs-calendar`: AI Fusion Labs calendar, if later approved.
 
 For `rob-personal`, every Himalaya command must include `--account rob-personal`, including `message read`.
+
+Calendar access starts read-only. Do not create, edit, delete, RSVP, invite guests, or send calendar messages without Rob's explicit approval.
 
 ## Good Prompts For Rob
 
@@ -71,4 +76,3 @@ Triage inbox and suggest Linear issues. Do not create them yet.
 ```text
 Give me my morning operator brief. Use Gmail headers only unless I approve reading bodies.
 ```
-

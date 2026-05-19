@@ -30,6 +30,8 @@ Hermes Core is a standalone operator-core lab. Its job is to help experiment wit
 ## Reference Docs
 
 - [Operating model](operating-model.md)
+- [Daily Brief v2](daily-brief-v2.md)
 - [Future X Link bridge contract](xlink-bridge-contract.md)
 - [Linear usage guide](linear-usage-guide.md)
+- [Calendar ops workflow](calendar-ops-workflow.md)
 - [Job search and interview ops](job-search-and-interview-ops.md)

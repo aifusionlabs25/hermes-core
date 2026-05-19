@@ -75,10 +75,12 @@ Open item:
 ## Recommended Next Moves
 
 1. Monitor and verify the next Coast/iHeart scheduled recording, then close AI-9 if successful.
-2. Start using Linear as the task board for new Hermes, X-LINK, iHeart, and job-search work.
-3. Test the Capture to Linear workflow with inbox triage. Do not create issues without Rob approval, and recommend no issue when captures are stale, tests, duplicates, handled, or vague.
-4. Keep `notes/inbox.md` local-only and out of GitHub.
-5. Consider adding a short Hermes startup prompt that says: read `ROB.md`, `HERMES.md`, and `WORK.md`.
+2. Test Daily Brief v2 with source labels: Checked, Not checked, Snapshot used, and Unavailable.
+3. Use Google Calendar as a read-only context source through Codex for now; decide later whether Hermes CLI/Telegram needs direct Calendar integration.
+4. Start using Linear as the task board for new Hermes, X-LINK, iHeart, and job-search work.
+5. Test the Capture to Linear workflow with inbox triage. Do not create issues without Rob approval, and recommend no issue when captures are stale, tests, duplicates, handled, or vague.
+6. Keep `notes/inbox.md` local-only and out of GitHub.
+7. Consider adding a short Hermes startup prompt that says: read `ROB.md`, `HERMES.md`, and `WORK.md`.
 
 ## Standard Startup Prompt
 

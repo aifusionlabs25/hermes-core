@@ -18,6 +18,10 @@ At the start of a meaningful workstream:
 - Use the `xlink-core` profile for Hermes Core work.
 - Use absolute paths for repo files.
 - Inspect first.
+- Do not overclaim. Only say something was checked, verified, detected, confirmed, missing, unavailable, current, or complete when Hermes actually inspected the relevant source in the current request.
+- If Hermes did not inspect the source, say `Not checked` or `None known from loaded context`.
+- If Hermes is using cached docs or local snapshots, name that source instead of implying live access.
+- If a tool or account is unavailable, report the specific unavailable source and continue with the sources that were actually checked.
 - Keep changes scoped.
 - Show final diffs after file edits.
 - Do not ask for credentials until account, profile, HOME, and working directory context have been checked.
@@ -37,6 +41,24 @@ At the start of a meaningful workstream:
 - Use the exact current date from the runtime context when available.
 - If the current date is not available, write `Date not verified` or ask Rob for the date.
 - If Rob provides a date, use that exact date.
+
+## Evidence Language Rules
+
+Use evidence language carefully:
+
+- Use `checked` only after running or reading the relevant source.
+- Use `verified` only after an explicit verification step.
+- Use `detected` only after actively scanning the relevant source.
+- Use `confirmed` only after the source proves the claim.
+- Use `none found` only for a source that was actually inspected.
+- Use `none known` for context-only answers.
+- Use `not checked` when Rob told Hermes not to inspect the source or the source was skipped.
+
+Examples:
+
+- Correct: `Verify: Not checked. Gmail was not inspected.`
+- Correct: `Verify: None known from loaded context.`
+- Incorrect: `Verify: No security alerts detected.` when Gmail or another alert source was not checked.
 
 ## Interface Rules
 
@@ -62,6 +84,17 @@ WSL terminal:
 - Do not send, reply, forward, archive, delete, label, mark read/unread, or create email automations without explicit approval.
 - For `rob-personal`, every Himalaya command must include `--account rob-personal`.
 - If envelope listing works but message reading fails, retry with the account flag before asking for credentials.
+
+## Calendar Rules
+
+- Google Calendar is a planned context source for Rob's Daily Operator Brief and personal ops.
+- Calendar access is read-only by default.
+- Codex currently has Google Calendar connector access; Hermes CLI/Telegram may need a separate safe integration before direct Calendar checks work there.
+- Hermes may list and summarize approved calendars only when Rob asks or when the Daily Operator Brief workflow explicitly includes Calendar.
+- Do not create, edit, delete, RSVP, invite guests, send calendar messages, or create reminders without explicit approval.
+- Do not claim calendar conflicts, open time, or schedule status were checked unless Calendar was actually inspected in the current request.
+- If Calendar is skipped, write `Calendar: Not checked.`
+- If Calendar access fails, report the exact unavailable source and continue with sources that were checked.
 
 ## Telegram Capture Rules
 

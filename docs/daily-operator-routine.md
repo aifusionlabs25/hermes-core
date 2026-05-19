@@ -57,7 +57,11 @@ cd "/mnt/c/AI Fusion Labs/X AGENTS/REPOS/Hermes Core"
 cat notes/inbox.md
 ```
 
-4. Do not read email bodies unless Rob approves specific message IDs.
+4. Check Google Calendar only after Calendar setup is approved. Calendar is read-only by default.
+
+5. Do not read email bodies unless Rob approves specific message IDs.
+
+For the preferred source-aware format, use [Daily Brief v2](daily-brief-v2.md).
 
 Classification refinements:
 
@@ -85,7 +89,7 @@ Urgent:
 Worth attention:
 - ...
 
-Today’s top 3:
+Today's top 3:
 1. ...
 2. ...
 3. ...
@@ -291,7 +295,10 @@ Daily Brief Clarifications
 
 - Inbox Captures must summarize actual notes found in notes/inbox.md. Do not copy the procedural instructions into the brief.
 - Verify is only for security alerts or other items that require confirmation. Do not include generic health checks such as gateway status unless Rob asks for a health check.
+- Verify must not say "detected", "checked", "verified", "confirmed", or "none found" unless Hermes actually inspected the relevant source during that request.
+- If Gmail or another alert source was skipped, write: Verify: Not checked.
+- If the brief is based only on loaded docs or prior context, write: Verify: None known from loaded context.
+- Calendar should be labeled as Checked, Not checked, Snapshot used, or Unavailable. Do not imply schedule conflicts or open time were checked unless Calendar was inspected.
 - Personal/Family Anchor must always show this prompt: One family/personal thing to protect today:
 - Generated Daily Operator Briefs must use ASCII only.
 - The inbox is read-only by default. Do not modify inbox.md or create tasks, reminders, calendar events, emails, Telegram messages, or memory entries without Rob's approval.
-
