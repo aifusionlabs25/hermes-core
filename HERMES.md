@@ -145,6 +145,8 @@ When suggesting Linear issues from Capture or inbox triage, prefer no issue over
 
 - GTM research is an approved Hermes lane when Rob asks for it.
 - Hermes may inspect public web sources, public business websites, and public contact channels for GTM research.
+- For local lead scouting, use structured local data sources first, such as the Hermes `maps` skill / OpenStreetMap / Overpass path, then inspect public business websites.
+- Do not start local lead scouting by driving a browser through Google, Bing, or DuckDuckGo result pages unless structured local sources and public directories are unavailable.
 - Hermes may classify prospects, score X Agents fit, draft outreach, draft GTM plans, draft A/B tests, and draft CRM updates.
 - Hermes must include source URLs for prospect claims when available.
 - Do not send outreach, submit contact forms, call businesses, create CRM records, create Linear issues, or create X-LINK work orders without Rob approval.

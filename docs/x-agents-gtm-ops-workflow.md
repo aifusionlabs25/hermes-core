@@ -110,6 +110,29 @@ Fit score:
 - 2: weak fit, limited evidence
 - 1: poor fit or not relevant
 
+### Local Search Data Source Order
+
+Do not start Local Lead Scout by driving a browser through Google, Bing, or DuckDuckGo search result pages. Those pages often block automated browsers and waste the run.
+
+Use this source order instead:
+
+1. Structured local data provider: use the Hermes `maps` skill / OpenStreetMap / Overpass path first for local business discovery when available.
+2. Direct public business websites: inspect the business website for services, phone, contact form, chat status, and lead-capture quality.
+3. Public directory pages: use public directory pages only when they are accessible without login, CAPTCHA, paywall, or terms bypass.
+4. Browser search engine pages: use raw browser search only as a last resort.
+
+If structured search and public directories are unavailable, stop and say exactly which source failed. Do not invent businesses or fill unknown fields from guesses.
+
+For 85045 / Ahwatukee style searches, use structured queries like:
+
+```text
+python3 ~/.hermes/profiles/xlink-core/skills/productivity/maps/scripts/maps_client.py nearby --near "85045 Arizona" --category plumber --category electrician --category hvac --category roofer --category landscaper --radius 16093 --limit 20
+```
+
+Then inspect the returned websites and public source URLs before scoring a lead.
+
+When a structured source provides only partial data, mark fields as `unknown` rather than guessing.
+
 ## Workflow 2: Website AI Readiness Review
 
 Use this when Rob wants to understand how a prospect website performs.
