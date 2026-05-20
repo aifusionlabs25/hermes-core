@@ -129,6 +129,8 @@ For 85045 / Ahwatukee style searches, use structured queries like:
 python3 ~/.hermes/skills/maps/scripts/maps_client.py nearby --near "85045 Arizona" --category plumber --category electrician --category hvac --category roofer --category landscaper --radius 16093 --limit 20
 ```
 
+Do not hand-roll raw Overpass `curl` queries for Local Lead Scout unless the maps helper script is missing or broken. Do not use hard-coded coordinates for ZIP searches. In particular, do not use `33.4484,-112.0740` for 85045; that is downtown Phoenix, not the 85045 / Ahwatukee search center.
+
 Then inspect the returned websites and public source URLs before scoring a lead.
 
 When a structured source provides only partial data, mark fields as `unknown` rather than guessing.
