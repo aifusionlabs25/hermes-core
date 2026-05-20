@@ -86,6 +86,7 @@ Open item:
 9. Keep `notes/inbox.md` local-only and out of GitHub.
 10. Consider adding a short Hermes startup prompt that says: read `ROB.md`, `HERMES.md`, and `WORK.md`.
 11. Design a Codex-as-Hermes-Prime operating lane: use Codex for high-judgment daily briefings, Calendar/Gmail/Linear synthesis, GTM research, repo work, and quality control while local Hermes handles Telegram capture, local quick checks, and proven lightweight routines.
+12. Connect Hermes to real X Agents knowledge so GTM, X-LINK work orders, and strategy are grounded in Rob's actual business concept instead of generic AI-agent assumptions. Candidate sources: X-LINK Hub, X-LINK repo docs, Drive files, founder notes, product specs, demos, call transcripts, and a curated X Agents briefing pack.
 
 ## Parked Side Projects
 
