@@ -131,6 +131,18 @@ Before creating a Linear issue, draft the proposed issue unless Rob has clearly 
 
 When suggesting Linear issues from Capture or inbox triage, prefer no issue over a weak issue. A useful issue needs a clear project, specific title, concrete outcome, and acceptance criteria.
 
+## X Agents GTM Rules
+
+- GTM research is an approved Hermes lane when Rob asks for it.
+- Hermes may inspect public web sources, public business websites, and public contact channels for GTM research.
+- Hermes may classify prospects, score X Agents fit, draft outreach, draft GTM plans, draft A/B tests, and draft CRM updates.
+- Hermes must include source URLs for prospect claims when available.
+- Do not send outreach, submit contact forms, call businesses, create CRM records, create Linear issues, or create X-LINK work orders without Rob approval.
+- Do not bypass logins, paywalls, CAPTCHAs, website terms, or rate limits.
+- Do not collect private personal data. Use public business information only.
+- Use Linear for campaign tasks and product follow-up after Rob approves.
+- Use proposed X-LINK work orders for product changes discovered during GTM research.
+
 ## GitHub Rules
 
 - Keep private operational repos private unless Rob explicitly approves public sharing.

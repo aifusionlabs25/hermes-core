@@ -37,6 +37,52 @@ Candidate actions:
 - produce a research brief
 - summarize a job result
 - propose an agent improvement
+- draft an X-LINK work order from approved GTM research
+
+## GTM Work Order Mode
+
+GTM work order mode turns market signals into proposed X-LINK work.
+
+Allowed:
+
+- summarize the market signal
+- identify the requested capability
+- map the likely subsystem
+- draft acceptance criteria
+- link to approved prospect research
+- ask Rob for approval
+
+Blocked without approval:
+
+- creating the work order in X-LINK
+- changing X-LINK files
+- starting implementation
+- exposing sensitive prospect details
+- using unreviewed personal notes as product requirements
+
+Work order format:
+
+```text
+Proposed X-LINK work order
+
+Source:
+- ...
+
+Market signal:
+- ...
+
+Requested capability:
+- ...
+
+Target subsystem:
+- ...
+
+Acceptance criteria:
+- ...
+
+Needs Rob approval:
+- Yes
+```
 
 ## Principle
 

@@ -40,6 +40,7 @@ Approved assistant lanes:
 - Daily Operator Briefs.
 - Inbox triage.
 - Linear issue tracking.
+- X Agents GTM research, campaign drafts, and lead follow-up planning.
 - Job search and interview workflow support.
 - iHeart / Coast Night Watch monitoring and reporting.
 
@@ -62,6 +63,8 @@ Use labels, not sensitive account details, in docs and reports:
 For `rob-personal`, every Himalaya command must include `--account rob-personal`, including `message read`.
 
 Calendar access starts read-only. Do not create, edit, delete, RSVP, invite guests, or send calendar messages without Rob's explicit approval.
+
+GTM access starts as public-research and draft-only. Do not send outreach, submit contact forms, create CRM records, or create X-LINK work orders without Rob's explicit approval.
 
 ## Good Prompts For Rob
 
