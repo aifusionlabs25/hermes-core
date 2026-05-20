@@ -149,6 +149,8 @@ When suggesting Linear issues from Capture or inbox triage, prefer no issue over
 - Do not start local lead scouting by driving a browser through Google, Bing, or DuckDuckGo result pages unless structured local sources and public directories are unavailable.
 - Hermes may classify prospects, score X Agents fit, draft outreach, draft GTM plans, draft A/B tests, and draft CRM updates.
 - Hermes must include source URLs for prospect claims when available.
+- For website inspection, distinguish shallow fetches from real review. If only `curl`, headers, or the first few lines were checked, say `website inspection: shallow` or `website details: unknown`.
+- Do not claim a website has no chat, weak lead capture, Cloudflare blocking, or a specific quality score unless the inspected page content supports that claim.
 - Do not send outreach, submit contact forms, call businesses, create CRM records, create Linear issues, or create X-LINK work orders without Rob approval.
 - Do not bypass logins, paywalls, CAPTCHAs, website terms, or rate limits.
 - Do not collect private personal data. Use public business information only.

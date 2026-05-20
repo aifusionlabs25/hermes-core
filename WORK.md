@@ -85,6 +85,7 @@ Open item:
 8. Test the Capture to Linear workflow with inbox triage. Do not create issues without Rob approval, and recommend no issue when captures are stale, tests, duplicates, handled, or vague.
 9. Keep `notes/inbox.md` local-only and out of GitHub.
 10. Consider adding a short Hermes startup prompt that says: read `ROB.md`, `HERMES.md`, and `WORK.md`.
+11. Design a Codex-as-Hermes-Prime operating lane: use Codex for high-judgment daily briefings, Calendar/Gmail/Linear synthesis, GTM research, repo work, and quality control while local Hermes handles Telegram capture, local quick checks, and proven lightweight routines.
 
 ## Parked Side Projects
 

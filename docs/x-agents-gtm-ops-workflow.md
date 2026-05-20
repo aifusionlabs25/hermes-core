@@ -135,6 +135,13 @@ Then inspect the returned websites and public source URLs before scoring a lead.
 
 When a structured source provides only partial data, mark fields as `unknown` rather than guessing.
 
+For website inspection, separate shallow checks from real review:
+
+- If Hermes only fetched headers, first lines, or a partial HTML response, mark `website inspection` as `shallow`.
+- Do not claim Cloudflare blocking unless the fetched content clearly shows a Cloudflare challenge or block page.
+- Do not claim `no chat`, weak lead capture, or a website quality score unless Hermes inspected enough page content to support it.
+- If page content cannot be inspected, use `unknown` for website quality, chat status, lead-capture quality, and missed opportunities.
+
 ## Workflow 2: Website AI Readiness Review
 
 Use this when Rob wants to understand how a prospect website performs.
