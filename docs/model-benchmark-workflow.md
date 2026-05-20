@@ -53,6 +53,12 @@ Interpretation:
 - xAI provider access is not usable for model benchmarking yet.
 - The next step is to verify the xAI/Grok subscription or use an xAI API key with the required model access.
 
+Current disposition:
+
+- Park this side project until xAI access is usable.
+- Keep current NVIDIA/gpt-oss-120b as the working Hermes model.
+- Resume benchmarking only after Rob provides a working xAI API key or confirms an API-capable Grok subscription.
+
 ## Evaluation Principles
 
 Do not switch the default model until the candidate is tested.

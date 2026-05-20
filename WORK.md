@@ -76,15 +76,26 @@ Open item:
 ## Recommended Next Moves
 
 1. Monitor and verify the next Coast/iHeart scheduled recording, then close AI-9 if successful.
-2. Resolve xAI/Grok entitlement. OAuth is connected in xlink-core, but xAI returned a subscription or permission error during proxy testing.
-3. After xAI access is usable, run the Grok side of the model benchmark workflow and compare against the completed NVIDIA/gpt-oss-120b baseline.
-4. Test Daily Brief v2 with source labels: Checked, Not checked, Snapshot used, and Unavailable.
-5. Use Google Calendar as a read-only context source through Codex for now; decide later whether Hermes CLI/Telegram needs direct Calendar integration.
-6. Keep X Agents GTM execution paused until model evaluation is settled. The GTM workflow is documented and ready for later testing.
+2. Start testing the X Agents GTM workflow with small public-web-only Local Lead Scout runs.
+3. Use current NVIDIA/gpt-oss-120b as the working Hermes model until Grok access is usable.
+4. Keep the xAI/Grok OAuth side project parked. OAuth is connected, but inference is blocked by xAI entitlement. Revisit with an xAI API key or confirmed API-capable subscription.
+5. Test Daily Brief v2 with source labels: Checked, Not checked, Snapshot used, and Unavailable.
+6. Use Google Calendar as a read-only context source through Codex for now; decide later whether Hermes CLI/Telegram needs direct Calendar integration.
 7. Start using Linear as the task board for new Hermes, X-LINK, iHeart, GTM, and job-search work.
 8. Test the Capture to Linear workflow with inbox triage. Do not create issues without Rob approval, and recommend no issue when captures are stale, tests, duplicates, handled, or vague.
 9. Keep `notes/inbox.md` local-only and out of GitHub.
 10. Consider adding a short Hermes startup prompt that says: read `ROB.md`, `HERMES.md`, and `WORK.md`.
+
+## Parked Side Projects
+
+Grok / xAI OAuth:
+
+- Hermes was updated to v0.14.0.
+- xAI OAuth is connected in the xlink-core profile.
+- xAI proxy status reports ready.
+- Actual inference is blocked by xAI subscription or permission entitlement.
+- Baseline benchmark for current NVIDIA/gpt-oss-120b is recorded.
+- Reopen when Rob has a working xAI API key or confirmed API-capable Grok subscription.
 
 ## Standard Startup Prompt
 
