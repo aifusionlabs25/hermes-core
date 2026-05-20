@@ -126,7 +126,7 @@ If structured search and public directories are unavailable, stop and say exactl
 For 85045 / Ahwatukee style searches, use structured queries like:
 
 ```text
-python3 ~/.hermes/profiles/xlink-core/skills/productivity/maps/scripts/maps_client.py nearby --near "85045 Arizona" --category plumber --category electrician --category hvac --category roofer --category landscaper --radius 16093 --limit 20
+python3 ~/.hermes/skills/maps/scripts/maps_client.py nearby --near "85045 Arizona" --category plumber --category electrician --category hvac --category roofer --category landscaper --radius 16093 --limit 20
 ```
 
 Then inspect the returned websites and public source URLs before scoring a lead.
