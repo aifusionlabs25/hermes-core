@@ -34,6 +34,16 @@ At the start of a meaningful workstream:
 - Replace ellipsis characters with `...`.
 - Replace nonbreaking spaces with normal spaces.
 - Before showing Daily Operator Briefs, Linear summaries, inbox triage, or operational recommendations, check the entire response for non-ASCII characters.
+- Do not change the default model/provider without Rob approval and a benchmark result.
+
+## Model Provider Rules
+
+- Current xlink-core baseline is NVIDIA provider with `openai/gpt-oss-120b`.
+- xAI/Grok is a candidate provider, not the default.
+- Test candidate models with the model benchmark workflow before switching defaults.
+- Compare models on Rob's real workflows: Daily Brief v2, Gmail triage, Capture to Linear judgment, GTM planning, X-LINK work orders, tool use, speed, and reliability.
+- Do not store provider secrets in this repo.
+- Do not commit auth files, API keys, OAuth tokens, or provider credentials.
 
 ## Date Rules
 
