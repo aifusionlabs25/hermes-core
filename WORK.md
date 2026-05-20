@@ -76,8 +76,8 @@ Open item:
 ## Recommended Next Moves
 
 1. Monitor and verify the next Coast/iHeart scheduled recording, then close AI-9 if successful.
-2. Configure and test xAI/Grok as a candidate Hermes model provider.
-3. Run the model benchmark workflow against the current NVIDIA/gpt-oss-120b setup and Grok.
+2. Complete xAI/Grok OAuth login for Hermes. OAuth support is available after Hermes update, but browser callback is still pending.
+3. Run the Grok side of the model benchmark workflow and compare against the completed NVIDIA/gpt-oss-120b baseline.
 4. Test Daily Brief v2 with source labels: Checked, Not checked, Snapshot used, and Unavailable.
 5. Use Google Calendar as a read-only context source through Codex for now; decide later whether Hermes CLI/Telegram needs direct Calendar integration.
 6. Keep X Agents GTM execution paused until model evaluation is settled. The GTM workflow is documented and ready for later testing.

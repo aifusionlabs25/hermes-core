@@ -28,8 +28,9 @@ As of this workflow:
 
 - xlink-core default provider: `nvidia`
 - xlink-core default model: `openai/gpt-oss-120b`
-- xAI/Grok provider: not configured yet
-- xAI OAuth/API status: needs setup and verification
+- xAI/Grok provider: supported after Hermes update to v0.14.0
+- xAI OAuth/API status: pending Rob browser login callback
+- Baseline summary: [model-benchmark-baseline-summary-2026-05-19.md](model-benchmark-baseline-summary-2026-05-19.md)
 
 ## Evaluation Principles
 
