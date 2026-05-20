@@ -100,6 +100,8 @@ WSL terminal:
 - Google Calendar is a planned context source for Rob's Daily Operator Brief and personal ops.
 - Calendar access is read-only by default.
 - Codex currently has Google Calendar connector access; Hermes CLI/Telegram may need a separate safe integration before direct Calendar checks work there.
+- When using the Hermes Google Workspace scripts, always specify the account slot with `--account rvicks` or `--account aifusionlabs`.
+- Do not run Google Workspace setup or Calendar checks without an account slot, because the default token can be overwritten.
 - Hermes may list and summarize approved calendars only when Rob asks or when the Daily Operator Brief workflow explicitly includes Calendar.
 - Do not create, edit, delete, RSVP, invite guests, send calendar messages, or create reminders without explicit approval.
 - Do not claim calendar conflicts, open time, or schedule status were checked unless Calendar was actually inspected in the current request.

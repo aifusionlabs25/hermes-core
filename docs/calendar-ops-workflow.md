@@ -47,6 +47,28 @@ Use labels instead of exposing account details in docs and summaries:
 
 Start with Rob's personal calendar only if Rob approves.
 
+## Hermes Google Workspace Account Slots
+
+Hermes CLI uses account-specific Google Workspace token slots.
+
+Use:
+
+```text
+python3 /home/ai_fusion_labs/.hermes/profiles/xlink-core/skills/productivity/google-workspace/scripts/google_api.py --account rvicks calendar list --max 5
+```
+
+for `rob-personal-calendar`.
+
+Use:
+
+```text
+python3 /home/ai_fusion_labs/.hermes/profiles/xlink-core/skills/productivity/google-workspace/scripts/google_api.py --account aifusionlabs calendar list --max 5
+```
+
+for `aifusionlabs-calendar`.
+
+Do not run Google Workspace setup or Calendar checks without an `--account` value, because the default token can be overwritten.
+
 ## Daily Brief Integration
 
 When Rob asks for a Daily Operator Brief and Calendar is approved, Hermes should say what was checked.
