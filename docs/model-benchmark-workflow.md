@@ -29,8 +29,29 @@ As of this workflow:
 - xlink-core default provider: `nvidia`
 - xlink-core default model: `openai/gpt-oss-120b`
 - xAI/Grok provider: supported after Hermes update to v0.14.0
-- xAI OAuth/API status: pending Rob browser login callback
+- xAI OAuth/API status: OAuth connected in xlink-core profile, but xAI proxy test returned a subscription or permission error
 - Baseline summary: [model-benchmark-baseline-summary-2026-05-19.md](model-benchmark-baseline-summary-2026-05-19.md)
+
+## xAI OAuth Status
+
+Setup result:
+
+- Hermes was updated from v0.12.0 to v0.14.0.
+- `xai-oauth` became available after the update.
+- Rob completed the xAI OAuth manual-paste flow.
+- `hermes -p xlink-core auth list` shows one `xai-oauth` credential.
+- `hermes -p xlink-core proxy status` reports xAI as ready.
+
+Blocking result:
+
+- A direct proxy model request returned: `The caller does not have permission to execute the specified operation`.
+- xAI also reported that the account may be out of resources or may not have an active Grok subscription for this API-style access.
+
+Interpretation:
+
+- Hermes auth is connected.
+- xAI provider access is not usable for model benchmarking yet.
+- The next step is to verify the xAI/Grok subscription or use an xAI API key with the required model access.
 
 ## Evaluation Principles
 
