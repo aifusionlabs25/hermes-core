@@ -41,6 +41,6 @@ Hermes Core is a standalone operator-core lab. Its job is to help experiment wit
 - [X Agents briefing pack](x-agents-briefing-pack.md)
 - [X Agents knowledge ops](x-agents-knowledge-ops.md)
 - [X Agents 30-60 day revenue plan](x-agents-30-60-day-revenue-plan.md)
-- [X Agents Lite offer playbook](x-agents-lite-offer-playbook.md)
+- [X Agents Pilot offer playbook](x-agents-pilot-offer-playbook.md)
 - [X Agents pilot economics and SOP](x-agents-pilot-economics-and-sop.md)
 - [Job search and interview ops](job-search-and-interview-ops.md)

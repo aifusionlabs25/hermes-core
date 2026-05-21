@@ -1,19 +1,19 @@
-# X Agents Lite Offer Playbook
+# X Agents Pilot Offer Playbook
 
 Status: draft for Rob review.
 Created: 2026-05-21.
 
 ## Offer Name
 
-`X Agents Lite`
+`X Agents Pilot`
 
 ## One-Line Pitch
 
-`A voice-enabled AI website concierge that helps visitors ask questions, leave details, and become qualified leads after hours.`
+`A guided X Agents website pilot that helps visitors ask questions, leave details, and become qualified leads after hours.`
 
 ## Customer-Facing Description
 
-X Agents Lite adds a simple AI concierge to your website. It can answer approved questions about your business, collect lead details, and send your team a clean summary so fewer website visitors disappear without contacting you.
+X Agents Pilot adds a simple AI concierge to your website. It can answer approved questions about your business, collect lead details, and send your team a clean summary so fewer website visitors disappear without contacting you.
 
 ## Best Buyer
 
@@ -27,7 +27,6 @@ X Agents Lite adds a simple AI concierge to your website. It can answer approved
 ## Core Problem
 
 Website visitors often leave because:
-
 - they cannot find answers fast
 - they do not want to fill out a form
 - it is after hours
@@ -37,14 +36,12 @@ Website visitors often leave because:
 ## Core Promise
 
 Not:
-
 - "AI will run your business."
 
 Say:
-
 - "We help your website capture more qualified inquiries with a guided AI concierge."
 
-## Included in Lite
+## Included in Pilot
 
 - one AI concierge experience
 - one approved FAQ/knowledge set
@@ -54,7 +51,7 @@ Say:
 - weekly or monthly usage summary
 - 30-day pilot review
 
-## Not Included in Lite
+## Not Included in Pilot
 
 - full CRM integration
 - SMS automation
@@ -70,19 +67,16 @@ These can become Pro or Custom upgrades.
 ## Suggested Pricing Tests
 
 Conservative:
-
 - setup: $199
 - monthly: $99
 - included usage: 30 minutes/month
 
 Balanced:
-
 - setup: $299
 - monthly: $149
 - included usage: 45 minutes/month
 
 Stronger:
-
 - setup: $499
 - monthly: $199
 - included usage: 60 minutes/month
@@ -91,14 +85,11 @@ Rob should choose one before outreach. Do not present all three to prospects unl
 
 ## Fair Use Language
 
-Draft:
-
 `Your plan includes up to [X] AI conversation minutes per month. If usage approaches the monthly allowance, we will notify you before any upgrade or overage. This pilot is designed for normal website inquiry traffic, not high-volume support automation.`
 
 ## Lead Capture Fields
 
 Minimum fields:
-
 - name
 - phone
 - email
@@ -109,7 +100,6 @@ Minimum fields:
 - best callback time
 
 Optional fields:
-
 - budget range
 - property type
 - existing provider
@@ -118,7 +108,7 @@ Optional fields:
 ## Lead Summary Format
 
 ```text
-New X Agents Lite lead
+New X Agents Pilot lead
 
 Business:
 Lead:
@@ -135,7 +125,6 @@ Recommended next step:
 ## First Outreach Angle
 
 Subject ideas:
-
 - Quick idea for after-hours website leads
 - Small AI concierge pilot for your website
 - Are website visitors leaving without calling?
@@ -158,7 +147,6 @@ AI Fusion Labs
 ## Qualification Questions for Sales Call
 
 Ask:
-
 1. How do most leads reach you today?
 2. Do you know how many website visitors leave without calling?
 3. Do after-hours inquiries matter for your business?
@@ -170,7 +158,6 @@ Ask:
 ## Pilot Acceptance Criteria
 
 A pilot is successful if at least one of these happens:
-
 - captures leads that otherwise would have been missed
 - improves speed to follow-up
 - reveals common customer questions
@@ -181,7 +168,6 @@ A pilot is successful if at least one of these happens:
 ## Upgrade Paths
 
 Upgrade to Pro when the client wants:
-
 - SMS follow-up
 - calendar booking
 - richer persona
@@ -194,11 +180,6 @@ Upgrade to Pro when the client wants:
 ## Rob Approval Points
 
 Rob must approve:
-
 - final pricing
 - final outreach copy
 - first target list
-- any claim about integrations
-- any promise about provider minutes
-- any client-facing demo
-- any outbound message

@@ -77,7 +77,7 @@ Open item:
 
 1. Monitor and verify the next Coast/iHeart scheduled recording, then close AI-9 if successful.
 2. Start testing the X Agents GTM workflow with small public-web-only Local Lead Scout runs using structured local data first, then public business websites.
-3. Review the X Agents 30-60 day revenue plan and decide whether to test `X Agents Lite` as the first sellable sub-product for local SMBs.
+3. Review the X Agents 30-60 day revenue plan and decide whether to test `X Agents Pilot` as the first sellable sub-product for local SMBs.
 4. Use current NVIDIA/gpt-oss-120b as the working Hermes model until Grok access is usable.
 5. Keep the xAI/Grok OAuth side project parked. OAuth is connected, but inference is blocked by xAI entitlement. Revisit with an xAI API key or confirmed API-capable subscription.
 6. Test Daily Brief v2 with source labels: Checked, Not checked, Snapshot used, and Unavailable.
