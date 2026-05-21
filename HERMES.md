@@ -36,6 +36,17 @@ At the start of a meaningful workstream:
 - Before showing Daily Operator Briefs, Linear summaries, inbox triage, or operational recommendations, check the entire response for non-ASCII characters.
 - Do not change the default model/provider without Rob approval and a benchmark result.
 
+## Session Health Rules
+
+- Long Hermes sessions may become less reliable after repeated context compression.
+- If compression count is 0 to 2, write `Session health: Fresh` when health is relevant.
+- If compression count is 3 to 5, write `Session health: Caution` and restate active constraints before multi-step work.
+- If compression count is 6 to 9, write `Session health: Degraded` and finish only the current small step unless Rob explicitly approves more.
+- If compression count is 10 or more, write `Session health: Handoff required`, produce a fresh-session handoff, and recommend starting a new chat before operational work continues.
+- If compression count is unknown, write `Session health: Unknown. Compression count was not checked.`
+- Do not rely on chat memory for GTM lead state. Use the GTM run packet format in `docs/x-agents-gtm-run-packet.md`.
+- For handoff format and examples, use `docs/hermes-session-health-and-handoff.md`.
+
 ## Model Provider Rules
 
 - Current xlink-core baseline is NVIDIA provider with `openai/gpt-oss-120b`.
