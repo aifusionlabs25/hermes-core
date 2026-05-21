@@ -77,19 +77,20 @@ Open item:
 
 1. Monitor and verify the next Coast/iHeart scheduled recording, then close AI-9 if successful.
 2. Start testing the X Agents GTM workflow with small public-web-only Local Lead Scout runs using structured local data first, then public business websites.
-3. Use current NVIDIA/gpt-oss-120b as the working Hermes model until Grok access is usable.
-4. Keep the xAI/Grok OAuth side project parked. OAuth is connected, but inference is blocked by xAI entitlement. Revisit with an xAI API key or confirmed API-capable subscription.
-5. Test Daily Brief v2 with source labels: Checked, Not checked, Snapshot used, and Unavailable.
-6. Use Google Calendar as a read-only context source through Codex for now; decide later whether Hermes CLI/Telegram needs direct Calendar integration.
-7. Start using Linear as the task board for new Hermes, X-LINK, iHeart, GTM, and job-search work.
-8. Test the Capture to Linear workflow with inbox triage. Do not create issues without Rob approval, and recommend no issue when captures are stale, tests, duplicates, handled, or vague.
-9. Keep `notes/inbox.md` local-only and out of GitHub.
-10. Consider adding a short Hermes startup prompt that says: read `ROB.md`, `HERMES.md`, and `WORK.md`.
-11. Design a Codex-as-Hermes-Prime operating lane: use Codex for high-judgment daily briefings, Calendar/Gmail/Linear synthesis, GTM research, repo work, and quality control while local Hermes handles Telegram capture, local quick checks, and proven lightweight routines.
-12. Connect Hermes to real X Agents knowledge so GTM, X-LINK work orders, and strategy are grounded in Rob's actual business concept instead of generic AI-agent assumptions. Candidate sources: X-LINK Hub, X-LINK repo docs, Drive files, founder notes, product specs, demos, call transcripts, and a curated X Agents briefing pack.
-13. Use `aifusionlabs` Google Drive as the primary Hermes Prime / X Agents knowledge workspace. The dedicated folder path is `AI FUSION LABS / Hermes Prime / X Agents Knowledge Base`.
-14. Curate X Agents knowledge before using it for product claims. Treat old Drive exports as dated historical source material until Rob confirms which files are current.
-15. Prioritize Rob's current direction, shared ChatGPT Project material, and X-LINK Hub as the most reliable sources for current X Agents product truth. Until ChatGPT Project exports and Hub access are available, use the X-LINK repo as the best available proxy.
+3. Review the X Agents 30-60 day revenue plan and decide whether to test `X Agents Lite` as the first sellable sub-product for local SMBs.
+4. Use current NVIDIA/gpt-oss-120b as the working Hermes model until Grok access is usable.
+5. Keep the xAI/Grok OAuth side project parked. OAuth is connected, but inference is blocked by xAI entitlement. Revisit with an xAI API key or confirmed API-capable subscription.
+6. Test Daily Brief v2 with source labels: Checked, Not checked, Snapshot used, and Unavailable.
+7. Use Google Calendar as a read-only context source through Codex for now; decide later whether Hermes CLI/Telegram needs direct Calendar integration.
+8. Start using Linear as the task board for new Hermes, X-LINK, iHeart, GTM, and job-search work.
+9. Test the Capture to Linear workflow with inbox triage. Do not create issues without Rob approval, and recommend no issue when captures are stale, tests, duplicates, handled, or vague.
+10. Keep `notes/inbox.md` local-only and out of GitHub.
+11. Consider adding a short Hermes startup prompt that says: read `ROB.md`, `HERMES.md`, and `WORK.md`.
+12. Design a Codex-as-Hermes-Prime operating lane: use Codex for high-judgment daily briefings, Calendar/Gmail/Linear synthesis, GTM research, repo work, and quality control while local Hermes handles Telegram capture, local quick checks, and proven lightweight routines.
+13. Connect Hermes to real X Agents knowledge so GTM, X-LINK work orders, and strategy are grounded in Rob's actual business concept instead of generic AI-agent assumptions. Candidate sources: X-LINK Hub, X-LINK repo docs, Drive files, founder notes, product specs, demos, call transcripts, and a curated X Agents briefing pack.
+14. Use `aifusionlabs` Google Drive as the primary Hermes Prime / X Agents knowledge workspace. The dedicated folder path is `AI FUSION LABS / Hermes Prime / X Agents Knowledge Base`.
+15. Curate X Agents knowledge before using it for product claims. Treat old Drive exports as dated historical source material until Rob confirms which files are current.
+16. Prioritize Rob's current direction, shared ChatGPT Project material, and X-LINK Hub as the most reliable sources for current X Agents product truth. Until ChatGPT Project exports and Hub access are available, use the X-LINK repo as the best available proxy.
 
 ## Parked Side Projects
 
