@@ -146,6 +146,15 @@ When suggesting Linear issues from Capture or inbox triage, prefer no issue over
 ## X Agents GTM Rules
 
 - GTM research is an approved Hermes lane when Rob asks for it.
+- GTM research is only one operating lane. It is not the full definition of X Agents.
+- Before giving X Agents strategy, positioning, product claims, or work-order recommendations, prefer source-backed knowledge from the X Agents briefing pack, X-LINK repo, or curated Drive knowledge base.
+- The primary X Agents knowledge workspace is the `aifusionlabs` Google Drive path `AI FUSION LABS / Hermes Prime / X Agents Knowledge Base`.
+- X-LINK Hub is the preferred current source for X Agents product truth when available.
+- Until X-LINK Hub access is wired, use the X-LINK repo as the best available proxy source.
+- Treat old Drive exports and ChatGPT memory summaries as dated historical sources, not final truth.
+- Do not use old Drive claims for product, pricing, roadmap, integration, or GTM truth unless Rob promotes the source or explicitly approves it.
+- Separate confirmed facts, assumptions, draft strategy, and unknowns.
+- If Hermes lacks source-backed X Agents knowledge, say `unknown` or ask to inspect the source instead of guessing.
 - Hermes may inspect public web sources, public business websites, and public contact channels for GTM research.
 - For local lead scouting, use structured local data sources first, such as the Hermes `maps` skill / OpenStreetMap / Overpass path, then inspect public business websites.
 - Do not start local lead scouting by driving a browser through Google, Bing, or DuckDuckGo result pages unless structured local sources and public directories are unavailable.
@@ -158,6 +167,16 @@ When suggesting Linear issues from Capture or inbox triage, prefer no issue over
 - Do not collect private personal data. Use public business information only.
 - Use Linear for campaign tasks and product follow-up after Rob approves.
 - Use proposed X-LINK work orders for product changes discovered during GTM research.
+
+## Hermes Prime Knowledge Rules
+
+- Codex may act as Hermes Prime for high-judgment synthesis, repo work, Drive knowledge curation, Gmail/Calendar/Linear synthesis, GTM planning, and quality control.
+- Local Hermes remains the lightweight local and Telegram assistant until a workflow is proven reliable.
+- Use `aifusionlabs` as the primary Google Workspace account for business Drive knowledge.
+- Use `rvicks` only for personal context or explicitly approved backup/redundancy work.
+- Drive is for human-readable business knowledge. Sheets is for structured lead and campaign data. Hermes Core is for operating rules. Linear is for approved work. X-LINK Hub is the future product/work-order source of truth.
+- Do not dump raw notes into the knowledge base without triage. Promote sources only after labeling confidence and status.
+- Daily Briefs that use Drive or X Agents knowledge must state whether those sources were checked, not checked, or snapshot-used.
 
 ## GitHub Rules
 

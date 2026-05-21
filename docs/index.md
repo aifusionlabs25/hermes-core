@@ -37,4 +37,7 @@ Hermes Core is a standalone operator-core lab. Its job is to help experiment wit
 - [Linear usage guide](linear-usage-guide.md)
 - [Calendar ops workflow](calendar-ops-workflow.md)
 - [X Agents GTM ops workflow](x-agents-gtm-ops-workflow.md)
+- [Hermes Prime knowledge foundation](hermes-prime-knowledge-foundation.md)
+- [X Agents briefing pack](x-agents-briefing-pack.md)
+- [X Agents knowledge ops](x-agents-knowledge-ops.md)
 - [Job search and interview ops](job-search-and-interview-ops.md)
